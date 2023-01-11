@@ -4,22 +4,43 @@
       "id": 1,
       "proid": "1111",
       "name": "親プロジェクトA",
-      "del": false,
-      "subpro":["親A子1","親A子2","親A子3"]
+      "del": false
     },
     {
       "id": 2,
       "proid": "2222",
       "name": "親プロジェクトB",
-      "del": false,
-      "subpro":["親A子1","親A子2","親A子3"]
+     "del": false
     }
   ],
   "subproject": [
     {
       "id": 1,
-      "proid": "1111",
-      "name": "子プロジェクトA",
+      "parent":"1111",
+      "proid": "1111-1111",
+      "name": "親A:子プロジェクトA",
+      "del": false
+    },
+    {
+      "id": 2,
+      "parent":"1111",
+      "proid": "1111-2222",
+      "name": "親A:子プロジェクトB",
+      "del": false
+    },
+    {
+      "id": 3,
+      "parent":"2222",
+      "proid": "2222-3333",
+      "name": "親B:子プロジェクトC",
+      "del": false
+    },
+    {
+      "id": 4
+      ,
+      "parent":"1111",
+      "proid": "1111-4444",
+      "name": "親A:子プロジェクトD",
       "del": false
     }
   ]
