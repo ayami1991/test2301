@@ -11,6 +11,18 @@
       "proid": "2222",
       "name": "親プロジェクトB",
      "del": false
+    },
+    {
+      "id": 3,
+      "proid": "3333",
+      "name": "親プロジェクトC",
+      "del": false
+    },
+    {
+      "id": 4,
+      "proid": "4444",
+      "name": "親プロジェクトD",
+      "del": false
     }
   ],
   "subproject": [
