@@ -54,6 +54,41 @@
       "proid": "1111-4444",
       "name": "親A:子プロジェクトD",
       "del": false
+    },
+    {
+      "key": 5,
+      "parent":"2222",
+      "proid": "2222-1111",
+      "name": "親B:子プロジェクトA",
+      "del": false
+    },
+    {
+      "key": 6,
+      "parent":"3333",
+      "proid": "3333-1111",
+      "name": "親C:子プロジェクトA",
+      "del": false
+    },
+    {
+      "key": 7,
+      "parent":"3333",
+      "proid": "3333-1111",
+      "name": "親C:子プロジェクトA",
+      "del": false
+    },
+    {
+      "key": 8,
+      "parent":"3333",
+      "proid": "3333-1111",
+      "name": "親C:子プロジェクトA",
+      "del": false
+    },
+    {
+      "key": 9,
+      "parent":"3333",
+      "proid": "3333-1111",
+      "name": "親C:子プロジェクトA",
+      "del": false
     }
   ]
 }
